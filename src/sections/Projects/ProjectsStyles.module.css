@@ -13,8 +13,10 @@
   a {
     width: fit-content;
     text-decoration: none;
+    color: var(--link-color);
     color: #222;
     transition: transform 200ms ease-in-out;
+    border: 1px solid var(--link-border-color);
     border: 1px solid #222;
     padding: 10px;
     border-radius: 30px;
@@ -32,6 +34,7 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  color: var(--project-title-color);
 }
 
 @media (width >= 800px) {
